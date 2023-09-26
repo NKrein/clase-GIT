@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: dimgray;
+}
+
+header {
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+h1, h2, p {
+    text-align: center;
+    color: antiquewhite;
+}
